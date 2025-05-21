@@ -17,3 +17,11 @@ A simple Node.js utility to convert a DOCX buffer into a PDF buffer, preserving 
    ```bash
    npm install
    ```
+
+## How to run
+
+```bash
+node index.js                # converts sample.docx → out-new.pdf
+OR
+node index.js foo.docx bar.pdf  # converts foo.docx → bar.pdf
+```
